@@ -50,10 +50,15 @@ group :development, :test do
 end
 group :development do
   gem 'rspec-rails', '~> 3.0'
+  gem 'autotest'
+    gem 'ZenTest'
+    gem 'autotest-growl'
+    gem 'autotest-fsevent'
 end
 
 group :test do
   gem 'rspec', '~> 3.0'
   gem 'webrat', '0.7.1'
+  gem 'ZenTest'
 end
 ruby "2.0.0"
